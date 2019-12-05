@@ -57,6 +57,7 @@
     <module>../skia/platform</module>
     <module>../cpu_features/platform</module>
     <module>../systems/platform</module>
+    <module>../dlib/platform</module>
   </modules>
 
   <dependencies>
@@ -274,6 +275,11 @@
     <dependency>
       <groupId>org.bytedeco</groupId>
       <artifactId>systems-platform</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.bytedeco</groupId>
+      <artifactId>dlib</artifactId>
       <version>${project.version}</version>
     </dependency>
   </dependencies>
